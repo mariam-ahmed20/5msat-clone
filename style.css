@@ -1,0 +1,282 @@
+#section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    justify-content: center;
+}
+
+#section div {
+    margin: 12px;
+    position: rlative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section div h1 {
+    font-size:xx-large;
+    position: absolute;
+    z-index: 1;
+    color: white;
+}
+
+#section2 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  justify-content: center;
+
+}
+
+#section2 div{
+  background-color: white;
+  width: 300px;
+  height: 50px;
+  padding: 13px;
+  margin: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  
+}
+
+#section2 div h3{
+  font-size: 20px;
+  margin: 10px;
+}
+
+#section3 {
+  display: flex;
+  justify-content: center;
+}
+
+#section3 div{
+  width: 170px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: #494848;
+  margin: 4px;
+  
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  position: -1;
+}
+
+.heading {
+  position: absolute;
+  z-index: 1;
+}
+
+.img {
+    filter: brightness(50%)
+}
+
+p {
+    text-align: center;
+    font-size: 37px;
+  }
+
+body {
+    margin:0px;
+}
+
+header {
+  margin: 0px;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  background-color: #494848;
+}
+
+header a {
+  float: left;
+  width: 4%;
+  text-align: center;
+  padding: 15px 0px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+header a:hover {
+  background-color: #848383;
+}
+
+.color p {
+  text-align: center
+}
+
+.container {
+  display: flex;
+  height: 350px;
+  justify-content: center;
+}
+
+.container1 {
+  background-color: #e2e1e19c;
+  height: 500px;
+}
+
+.container2 {
+  background-color: #e2e1e19c;
+  height: 365px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+  margin: 50px;
+  height: 30px;
+}
+
+.slice {
+  background-color: #e2e1e19c;
+  height: 70px;
+  display: flex;
+  justify-content:end;
+}
+
+.slice div {
+  margin: 10px 20px;
+}
+
+#top {
+  display: flex;
+  position: relative;
+}
+
+#top button {
+  width: 75px;
+  padding: 15px;
+  margin: 7px;
+  background-color: rgb(72, 183, 72);
+  border: rgb(58, 172, 58);
+  font-size: x-large;
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+#top input {
+  width: 700px;
+  height: 50px;
+  text-align: end;
+  font-size: x-large;
+  padding: 10px;
+  border: #e2e1e19c;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  height: 50px;
+}
+
+.flex button {
+  height: 44px;
+  margin: 5px;
+  width: 120px;
+  background-color: white;
+  border: white;
+  font-size: large;
+  color: #2a25259c;
+}
+
+.flex button:hover {
+  background-color:rgb(72, 183, 72);
+}
+
+#p1{
+  font-size: 50px;
+}
+
+#p2{
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content:flex-end;
+}
+
+.footer div{
+  width: 180px;
+  height: 60px;
+  margin: 5px;
+}
+
+.footer div p{
+  font-size: 15px;
+  text-align: right;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 275px;
+}
+
+#apart {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 70px;
+  font-size: 22px;
+}
+
+#apart button {
+  font-size: 25px;
+  color: rgb(52, 195, 52);
+  background-color: white;
+  border: 1px solid rgb(52, 195, 52);
+  margin: 5px;
+  padding: 5px;
+}
+
+#aside {
+  display: flex;
+  justify-content: center;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  width: 320px;
+  margin: 10px;
+}
+
+
+.p3 {
+  font-size: 20px;
+  color: rgb(58, 54, 54);
+  text-align: right;
+}
+
+.p4 {
+  font-size: 15px;
+  color: rgb(105, 98, 98);
+  text-align: right;
+}
+
+span {
+  justify-content: right;
+  color: rgb(211, 165, 29);
+}
+
+.bold {
+  color: #000;
+  font-weight: bold;
+}
